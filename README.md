@@ -50,7 +50,12 @@ This tree is confusing right?
 Just right click on ```main``` directory and create new directory with the name ```webapp```<br>
 So, we place JSP files in ```project_dir/main/webapp/WEB-INF/jsp/``` directory
 
-Go to ```application.properties``` file and place the below properties
+## The flow of Spring MVC
+![image](https://github.com/vamsikrishnarh7/spring-Mvc-model-example/assets/89008784/9b00c40b-3829-4791-9a8a-9ffee8984e61)
+
+
+
+Go to ```application.properties``` file and place the below properties therefore the Spring knows where to locate the JSP views
 ```
 spring.mvc.view.prefix = /WEB-INF/jsp/
 spring.mvc.view.suffix = .jsp
