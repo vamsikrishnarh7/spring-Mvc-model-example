@@ -18,7 +18,7 @@
             <div style="display:flex;justify-content:space-between;"><p>Chana Masala</p><p>Rs.190</p></div>
 
         </div>
-        <strong>Go to /order to order now</strong>
+        <input type="button" value="order" onclick="window.location='order'" />
     </div>
 
 </body>

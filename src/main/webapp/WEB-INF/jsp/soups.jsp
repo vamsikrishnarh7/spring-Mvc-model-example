@@ -16,7 +16,7 @@
             <div style="display:flex;justify-content:space-between;"><p>Hot And Sour Soup</p><p>Rs.125</p></div>
             <div style="display:flex;justify-content:space-between;"><p>Sweet Corn Soup</p><p>Rs.130</p></div>
         </div>
-        <strong>Go to /order to order now</strong>
+        <input type="button" value="order" onclick="window.location='order'" />
     </div>
 
 </body>

@@ -10,7 +10,7 @@ import java.util.List;
 
 @Controller
 public class OrderController {
-    @GetMapping("/order")
+    @GetMapping(value = {"/order","/menu/order"})
     public String order(){
         return "order";
     }

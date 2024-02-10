@@ -17,7 +17,7 @@
             <div style="display:flex;justify-content:space-between;"><p>Baby corn 65</p><p>Rs.${starters.get("Baby corn 65")}</p></div>
         </div>
         <strong>Try with Pepsi</strong>
-        <strong>Go to /order to order now</strong>
+        <input type="button" value="order" onclick="window.location='order'" />
     </div>
 </body>
 </html>

@@ -20,7 +20,8 @@
             <div style="display:flex;justify-content:space-between;"><p>Gongura biryani</p><p>Rs.210</p></div>
 
         </div>
-        <strong>Go to /order to order now</strong>
+        <input type="button" value="order" onclick="window.location='order'" />
+
     </div>
 
 </body>
