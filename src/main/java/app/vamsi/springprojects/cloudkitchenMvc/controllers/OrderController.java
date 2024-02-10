@@ -15,7 +15,7 @@ public class OrderController {
         return "order";
     }
 
-    @GetMapping(value = {"/order-success","/handleOrder"})
+    @GetMapping(value = {"/order-success","/handleOrder","/menu/handleOrder"})
     public String orderSuccess(HttpServletRequest request, Model model){
         String itemName = request.getParameter("itemName");
         model.addAttribute("itemName",itemName);

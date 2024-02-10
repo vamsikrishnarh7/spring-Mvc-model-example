@@ -3,6 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Cloud Kitchen - Menu</title>
+    <style>
+            a{
+                align:center;
+                padding:2px 5px;
+                border:solid 1px black;
+                border-radius:5px;
+            }
+            a:link{
+                color:black;
+                text-decoration:none;
+            }
+            a:visited{
+                color:black;
+            }
+        </style>
 </head>
 <body>
     <h1 align="center">Welcome to Cloud Kitchen</h1>
@@ -17,7 +32,7 @@
             <div style="display:flex;justify-content:space-between;"><p>Baby corn 65</p><p>Rs.${starters.get("Baby corn 65")}</p></div>
         </div>
         <strong>Try with Pepsi</strong>
-        <input type="button" value="order" onclick="window.location='order'" />
+        <a href="/order">order now</a>
     </div>
 </body>
 </html>
